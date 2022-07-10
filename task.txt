@@ -1,0 +1,35 @@
+Create your own application (on start: print "[datetime] Hi user" string each $param sec to file on the file system. Do not reset file data on stop/start)
+As docker application based on your favourite programming language
+
+with README file contains
+
+App Description
+
+Mentions prerequisites
+
+How to configure (reconfigure) it
+
+How to build and run
+
+Provide some instructions with commands
+
+Where and how we can get the log messages
+
+Project file-tree:
+
+README
+
+Dockerfile
+
+config.yaml
+
+app/* - folder with code
+
+High complexity additional task
+
+float delay number (example 1.5 sec)
+
+output uses the host username, who runs the container ('whoami' command), for example [datetime] Hi do_s
+
+somehow change the message interval without restarting the container
+
